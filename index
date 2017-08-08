@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Company</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script text="text/javascript" src="functions.js"></script>
+  </head>
+  <body class="cuerpo">
+    <header class="encabezado">
+      <span class="logo-header"  >
+        Business Owner?<a id="site-desc" href="#">
+          <b>Go here.</b>
+        </a>
+      </span>
+
+      <span class="sign">
+        <a href="#" id="sign-in"><b>Sign in,</b></a>
+        <a href="#" id="sign-up"><b>Sign up</b></a>
+        or
+        <a id="networks-header" href="#"><img src="LoginUp.png"></a>
+      </span>
+    </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+          <div class="contenedor-aside">
+          <div class="contenido-aside">
+              <aside class="Logo-imagen">
+                <img src="Logo.png">
+              </aside>
+              <aside>
+                <ul class="menu celda-aside">
+                    <li><img src="Home.png"><a href="#">Home</a></li>
+                    <li><img src="Eat-Drink.png"><a href="#">Eat/Drink</a></li>
+                    <li><img src="Shop.png"><a href="#">Shop</a></li>
+                    <li><img src="Events.png"><a href="#">Events</a></li>
+                    <li><img src="Services.png"><a href="#">Services</a></li>
+                    <li style="border-bottom: dashed 1px #D8D3CE">
+                      <img src="Town_Info.png"><a href="#">Town Info</a></li>
+                </ul>
+                <div class="celda-aside">
+                  <div class="share-card">
+                    <h5>Share this page</h5>
+                    <div class="share-card-images">
+                      <img src="Tweet.png" href="#" class="share-card-images1"></img>
+                      <img src="FacebookShare.png" href="#" class="share-card-images2"></img>
+                    </div>
+                  </div>
+
+                </div>
+
+            </aside>
+          </div>
+          </div>
+          <div class="hidden-md-down">
+          <aside class="aside2">
+            <div>
+                <h5>Recent Discussions</h5>
+            </div>
+            <div class="borde"></div>
+            <div class="Recent-Discussions-container">
+              <div class="Recent-Discussion-contenido">
+                <div class="Recent-Discussion-cell">
+                  <div class="Recent-Discussion-imagen">
+                    <img src="Recent1.png">
+                  </div>
+                  <div class="Recent-Discussion-text">
+                    The best <br>spanish food <br> ever.
+                    <div class="Recent-Discussion-text-l">Posted by <a href="">Paz vega</a><br>
+                      2 minutes ago.</div>
+                  </div>
+                  </div>
+              </div>
+            </div>
+            <div class="borde"></div>
+            <div class="Recent-Discussions-container">
+              <div class="Recent-Discussion-contenido">
+                <div class="Recent-Discussion-cell">
+                  <div class="Recent-Discussion-imagen">
+                    <img src="Recent2.png">
+                  </div>
+                  <div class="Recent-Discussion-text">
+                    My car needs a <br>fix. Help me find<br>a good shop
+                    <div class="Recent-Discussion-text-l">Posted by <a href="">Ana vega</a><br>
+                      2 minutes ago.</div>
+                  </div>
+                  </div>
+              </div>
+            </div>
+            <div class="borde"></div>
+            <div class="Recent-Discussions-container">
+              <div class="Recent-Discussion-contenido">
+                <div class="Recent-Discussion-cell">
+                  <div class="Recent-Discussion-imagen">
+                    <img src="Recent3.png">
+                  </div>
+                  <div class="Recent-Discussion-text">
+                    Anyone knows a<br>good place to<br>buy a bike?
+                    <div class="Recent-Discussion-text-l">Posted by <a href="">Johan Hem</a><br>
+                      2 minutes ago.</div>
+                  </div>
+                  </div>
+              </div>
+            </div>
+            <div class="borde"></div>
+            <div class="Recent-Discussions-container">
+              <div class="Recent-Discussion-contenido">
+                <div class="Recent-Discussion-cell">
+                  <div class="Recent-Discussion-imagen">
+                    <img src="Recent4.png">
+                  </div>
+                  <div class="Recent-Discussion-text">
+                    Help me find a<br>location for my<br>new movie
+                    <div class="Recent-Discussion-text-l">Posted by <a href="">Renee Zell</a><br>
+                      2 minutes ago.</div>
+                  </div>
+                  </div>
+              </div>
+            </div>
+            <div class="borde"></div>
+            <div class="Start-a-topic">
+              <a href="">Start a topic</a> | <a href="">View All</a>
+            </div>
+
+          </aside>
+      </div>
+      </div>
+
+      <div class="col-md-9 fondo">
+        <div class="row">
+          <div class="col-md-12">
+
+            <div class="graybar1">
+              <div class="contenedor-graybar1">
+                <div class="contenido-graybar1">
+
+                  <div class="mensaje-graybar1">What's going on in</div>
+                    <div class="select-graybar1">
+                      <select class="city-select" name="city-select">
+                        <option value="">Los Gatos, CA</option>
+                        <option value="">Los Angeles, CA</option>
+                        <option value="">Ponedera, ATL</option>
+                      </select>
+                    </div>
+                  <div class="input-graybar1">
+                    <input type="text" name="search" placeholder="Search (i.e. Bar, Italian, Party)">
+                  </div>
+                  <div class="button-graybar1">
+                    <button type="button" class="boton-graybar1" onclick="">Search</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!-- <div class="container-fluid"> -->
+        <div class="row">
+          <div class="col-md-6">
+              <div class="tarjeta1">
+                <header class="cabecera-1">
+                  <div class="container-cabecera1">
+                    <div class="contenido-cabecera1">
+                      <div class="texto-cabecera1">
+                        Today's Events
+                      </div>
+                      <div class="slider-cabecera1">
+                        <button id="boton-slider1-1" onclick=""></button>
+                        <button id="boton-slider1-2" onclick=""></button>
+                        <button id="boton-slider1-3" onclick=""></button>
+                        <button id="boton-slider1-4" onclick=""></button>
+                        <button id="boton-slider1-5" onclick=""></button>
+                      </div>
+                    </div>
+                  </div>
+
+                </header>
+                <div class="contenedor1-1">
+                    <img src="Imagen1.png">
+                </div>
+                <div class="borde"></div>
+                <div class="contenedor1-2">
+                  <h3>One Amazing Event is going to
+                  happen tonight, be there or be
+                  squared!</h3>
+                  <div class="division1-1">
+                    <h3>Where?</h3>
+                    <p>Armada Beach Club<br>
+                    1211 Beach Ave.<br>
+                    Los Gatos.</p>
+                  </div>
+                  <div class="division1-2">
+                    <h3>When?</h3>
+                    <p>8:00pm to 10:00pm</p>
+                  </div>
+                  <div class="division1-3">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                      elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua.</p>
+                  </div>
+                </div>
+                <div class="borde"></div>
+
+                  <div class="contenedor1-3">
+
+                      <div class="division1-3-1">
+                        Next Event<br>
+                          <div class="contenedor1-3-letrapequena">
+                            Thanksgiving Dinner at Michel's Place</div>
+                        </div>
+                      <div class="division1-3-2">
+                        <a href=""><span class="glyphicon glyphiconp1">&#xe072;</span>
+                          </a>
+                        </div>
+
+                  </div>
+
+                  </div>
+                </div>
+          <div class="col-md-6">
+            <div class="tarjeta2">
+              <header class="cabecera-2">
+                <div class="container-cabecera2">
+                  <div class="contenido-cabecera2">
+                    <div class="texto-cabecera2">
+                      Today's Deals
+                    </div>
+                    <div class="slider-cabecera2">
+                      <button class="boton-slider2"></button>
+                      <button class="boton-slider2"></button>
+                      <button class="boton-slider2"></button>
+                      <button class="boton-slider2"></button>
+                      <button class="boton-slider2"></button>
+                    </div>
+                  </div>
+                </div>
+
+              </header>
+              <div class="contenedor2-1">
+                  <img src="Imagen2.png">
+              </div>
+              <div class="borde"></div>
+              <div class="contenedor2-2">
+                <div class="row">
+                  <div class="col-md-8">
+                    <h3 class="contenedor2-2-sub1">$20 Off Any Three Course
+                      Meal for you and your
+                    loved one.</h3>
+                    <h4><b>Luigi's Spaguetti Imporium</b></h4>
+                      <h5>Los Gatos</h5>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="contenedor2-2-sub2">
+                      <h2 class="contenedor2-2-sub2-precio">$20</h2>
+                      <h7 class="contenedor2-2-sub2-texto">1h 22m left</h7>
+                      <h7 class="contenedor2-2-sub2-texto">32 purchased</h7>
+                      <button type="button" class="button-buy-now" name="button">Buy Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class ="division2-2">
+                  <p>Lorem ipsum dolor sit amet,
+                  consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                  nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Reiciendis possimus, ea dignissimos iusto omnis nam
+                   <a href="#" id="More_info">More info</a></p>
+                </div>
+              </div>
+              <div class="borde"></div>
+                <div class="contenedor2-3">
+
+
+                    <div class="division2-3-1">
+                      Next Deal<br>
+                      <div class="contenedor2-3-letrapequena">
+                        50% off all Thanksgiving turkeys
+                      </div>
+                    </div>
+                    <div class="division2-3-2">
+                      <a href=""><span class="glyphicon glyphiconp2">&#xe072;</span></a>
+                    </div>
+
+
+                </div>
+            </div>
+          </div>
+        </div>
+      <!-- </div> -->
+          <div class="row">
+            <div class="col-md-12">
+              <div class="graybar2">
+                Popular Places this week
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="row places">
+                <div class="col-md-2">
+                  <img src="places/place1-1.png">
+                </div>
+                <div class="col-md-8 place-info">
+                  Amanda's Kitchen
+                  <p>Restaurant<br>
+                  21 North Santa Cruz Ave.<br>
+                Hours today 11am-10pm</p>
+                </div>
+              </div>
+              <div class="borde"></div>
+
+              <div class="row places">
+                <div class="col-md-2">
+                  <img src="places/place1-2.png">
+                </div>
+                <div class="col-md-8 place-info">
+                  California Café
+                  <p>Restaurant/Bar<br>
+                  50 University Ave, Ste 260<br>
+                Hours today 11:30am-10pm</p>
+                </div>
+              </div>
+              <div class="borde"></div>
+
+              <div class="row places">
+                <div class="col-md-2">
+                  <img src="places/place1-3.png">
+                </div>
+                <div class="col-md-8 place-info">
+                  Café Delatti
+                  <p>Coffee House/Dessert<br>
+                  42 Elm Street.<br>
+                Hours today 10am-10pm</p>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md-6">
+
+              <div class="row places">
+                <div class="col-md-2">
+                  <img src="places/place2-1.png">
+                </div>
+                <div class="col-md-8 place-info">
+                  Apple Store
+                  <p>Specialty/Electronics<br>
+                  23 N. Santa Cruz Ave.<br>
+                Hours today 10am-9pm</p>
+                </div>
+              </div>
+              <div class="borde"></div>
+
+              <div class="row places">
+                <div class="col-md-2">
+                  <img src="places/place2-2.png">
+                </div>
+                <div class="col-md-8 place-info">
+                  Babycoo
+                  <p>Womens/Childen & Baby/Apparel<br>
+                  140 West Main St<br>
+                Hours today 11am-6pm</p>
+                </div>
+              </div>
+              <div class="borde"></div>
+
+              <div class="row places">
+                <div class="col-md-2">
+                  <img src="places/place2-3.png">
+                </div>
+                <div class="col-md-8 place-info">
+                  Banana Republic Mens
+                  <p>Men's/Apparel & Accesories<br>
+                  25 University Avenue<br>
+                Hours today 10am-8pm</p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+          <div class="row">
+            <div class="col-md-12"><a href="#" class="Hipervinculo-fondo">See all places &#187;</a></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+      <footer id="pie-pagina">
+        <div id="contenedor-footer">
+          <div id="contenido-footer">
+            <div id="Empy-cell1"></div>
+            <div id="Company">
+              Company<br>
+                <a href="">About Us</a><br>
+                <a href="">Contact Us</a><br>
+                <a href="">Privacy Policy</a><br>
+                <a href="">Terms of Services</a>
+            </div>
+            <div id="Learn-more">
+              Learn More <br>
+              <a href="">FAQ</a><br>
+              <a href="">Developers/API</a><br>
+              <a href="">Affiliates</a><br>
+              <a href="">Suggest a Town</a>
+            </div>
+            <div id="Extra">Extra <br>
+              <a href="">Blog</a><br>
+              <a href="">Twitter</a><br>
+              <a href="">Facebook</a>
+            </div>
+            <div id="Empy-cell2"></div>
+            <div id="Phone">
+              <img src="Phones.png">
+            </div>
+            <div id="mobile">
+              Mobile
+              <p>Download our iOS or Android <br>
+              apps and get the latest scoop <br>
+            in your town on the go. <b><a href="" id = "Dwnld">Download<br>
+            now</a></b></p>
+            </div>
+            <div id="building">
+              <img src="buildings.png">
+            </div>
+            <div id="business">
+              Business
+              <p>Get your Business featured<br>
+              on Company. Send Deals<br>
+            and Events.<b><a href="" id="Lrn-mr">Learn more<br>
+            now</a></b></p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+  </body>
+</html>
