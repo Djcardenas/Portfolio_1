@@ -10,7 +10,30 @@
   </head>
   <body class="cuerpo">
     <header class="encabezado">
-      <span class="logo-header"  >
+      <div class="row">
+        <div class="col-md-3 hidden-xs hidden-sm">
+        </div>
+        <div class="col-md-9">
+          <div class="contenedor-header">
+            <div class="contenido-header">
+
+                <div class="logo-header">
+                  Business Owner?<a id="site-desc" href="#">
+                    <b>Go here.</b>
+                  </a>
+                </div>
+                <div class="sign">
+                  <a href="#" id="sign-in"><b>Sign in,</b></a>
+                  <a href="#" id="sign-up"><b>Sign up</b></a>
+                  or
+                  <a id="networks-header" href="#"><img src="LoginUp.png"></a>
+                </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <span class="logo-header">
         Business Owner?<a id="site-desc" href="#">
           <b>Go here.</b>
         </a>
@@ -21,12 +44,12 @@
         <a href="#" id="sign-up"><b>Sign up</b></a>
         or
         <a id="networks-header" href="#"><img src="LoginUp.png"></a>
-      </span>
+      </span> -->
     </header>
 
   <div class="container">
     <div class="row">
-      <div class="col-md-3">
+      <div class="col-md-3 hidden-xs hidden-sm">
           <div class="contenedor-aside">
           <div class="contenido-aside">
               <aside class="Logo-imagen">

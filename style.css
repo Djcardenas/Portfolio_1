@@ -10,14 +10,21 @@ body  {
   color: white;
   height: 60px;
 }
+.contenedor-header {
+display: table;
+}
+.contenido-header{
+display: table-row;
+}
 /*logo-header*/
 .logo-header {
-	float: left;
-	padding: 15px 0 0 190px;
+  vertical-align: middle;
+  text-align: right;
+  display:table-cell;
   font-weight: 300;
   font-size: 0.9em;
+  width: 100%;
 }
-
 #site-desc {
   color: white;
   text-decoration: none;
@@ -25,12 +32,13 @@ body  {
 }
 
 .sign{
-  margin-left: 1000px;
-  display: block;
+  width: 100%;
+  vertical-align: middle;
+  text-align: right;
+  display: table-cell;
   font-weight: 300;
   font-size: 0.8em;
   color: white;
-  padding: 15px 0 0 0;
 }
 #sign-in {
   text-decoration: none;
