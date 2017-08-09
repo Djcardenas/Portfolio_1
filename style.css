@@ -11,19 +11,29 @@ body  {
   height: 60px;
 }
 .contenedor-header {
-display: table;
+  height: 100%;
+  display: table;
+  width: 100%;
 }
 .contenido-header{
-display: table-row;
+  display: table-row;
+}
+.empy-cell-header1 {
+  width: 25%;
+  display: table-cell;
+}
+.empy-cell-header2 {
+  width: 3%;
+  display: table-cell;
 }
 /*logo-header*/
 .logo-header {
-  vertical-align: middle;
-  text-align: right;
+  width: 36%;
   display:table-cell;
   font-weight: 300;
   font-size: 0.9em;
-  width: 100%;
+  vertical-align: middle;
+  text-align: left;
 }
 #site-desc {
   color: white;
@@ -32,13 +42,13 @@ display: table-row;
 }
 
 .sign{
-  width: 100%;
-  vertical-align: middle;
-  text-align: right;
-  display: table-cell;
+  width: 36%;
+  display:table-cell;
   font-weight: 300;
   font-size: 0.8em;
-  color: white;
+  vertical-align: middle;
+  text-align: right;
+  margin-right: 5%;
 }
 #sign-in {
   text-decoration: none;
