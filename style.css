@@ -49,6 +49,7 @@ body  {
   vertical-align: middle;
   text-align: right;
   margin-right: 5%;
+  text-decoration: none;
 }
 #sign-in {
   text-decoration: none;
@@ -293,10 +294,10 @@ body  {
   vertical-align: middle;
 
 }
-.contenedor1-1 {
+.contenedor1-1 > img {
   display: block;
-  margin:auto;
-  padding: 10px 10px 10px 10px;
+  margin: auto;
+  padding: 10px 0 10px 0;
 }
 .contenedor1-2 {
   font-weight: 900;
@@ -305,6 +306,7 @@ body  {
   margin: 0 20px;
 }
 .division1-1 {
+  margin: auto;
   color: #524e45;
   float:left;
 }
@@ -373,12 +375,11 @@ body  {
 .texto-cabecera2 {
   vertical-align: middle;
 }
-.contenedor2-1 {
+.contenedor2-1 > img {
   display: block;
-  margin:auto;
-  padding: 10px 10px 10px 10px;
+  margin: auto;
+  padding: 10px 0 10px 0;
 }
-
 .contenedor2-2 {
   margin: 0 20px;
   font-weight: bold;

@@ -20,12 +20,17 @@
                   </a>
                 </div>
                 <div class="sign">
+
                   <a href="#" id="sign-in"><b>Sign in,</b></a>
                   <a href="#" id="sign-up"><b>Sign up</b></a>
                   or
                   <a id="networks-header" href="#"><img src="LoginUp.png"></a>
+
                 </div>
-              <div class="empy-cell-header2"></div>
+              <div class="empy-cell-header2">
+                <button class="navbar-toggle" data-toggle = "collapse" data-target = "navHeaderTwoCollapse">
+                </button>
+              </div>
             </div>
           </div>
 
@@ -33,7 +38,7 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-md-3 hidden-xs hidden-sm">
+      <div class="col-lg-3 col-xl-3 hidden-xs hidden-sm hidden-md">
           <div class="contenedor-aside">
           <div class="contenido-aside">
               <aside class="Logo-imagen">
@@ -137,7 +142,7 @@
       </div>
       </div>
 
-      <div class="col-md-9 fondo">
+      <div class="col-lg-9 col-xl-9 col-md-12 fondo">
         <div class="row">
           <div class="col-md-12">
 
@@ -150,6 +155,7 @@
                       <select class="city-select" name="city-select">
                         <option value="">Los Gatos, CA</option>
                         <option value="">Los Angeles, CA</option>
+                        <option value="">Miami, FL</option>
                         <option value="">Ponedera, ATL</option>
                       </select>
                     </div>
