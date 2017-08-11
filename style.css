@@ -305,6 +305,9 @@ body  {
   color: #d86c20;
   margin: 0 20px;
 }
+.contenedor1-2 > h3 {
+  margin-top: 10px;
+}
 .division1-1 {
   margin: auto;
   color: #524e45;
@@ -385,10 +388,9 @@ body  {
   font-weight: bold;
   letter-spacing: -0.04em;
   color: #d86c20;
-  /*line-height: 1.2;*/
 }
 .contenedor2-2-sub1 {
-  margin-top: 0;
+  margin-top: 10px;
   display: block;
 }
 .contenedor2-2-sub1 > h4 {
@@ -399,6 +401,7 @@ body  {
   margin-top: 0;
 }
 .contenedor2-2-sub2 {
+  margin: 10px 0 10px;
   text-align: center;
   padding: 0 10px;
   border-radius: 5px;
@@ -430,7 +433,6 @@ body  {
   font-weight: normal;
   color: #524e45;
   clear: both;
-  margin-top:9.5em;
 }
 .division1-3-1 {
   line-height: 90%;
